@@ -7,6 +7,7 @@ module.exports = () => {
     entry: "./bootstrap.js",
     output: {
       path: resolve("dist"),
+      publicPath: "/dist/",
       filename: "bundle.js",
     },
   });
