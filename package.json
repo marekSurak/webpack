@@ -19,6 +19,7 @@
     }
   },
   "scripts": {
+    "build": "webpack -p",
     "dev": "webpack-dev-server",
     "build:dev": "webpack",
     "validate": "npm run lint",
